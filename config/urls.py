@@ -14,7 +14,6 @@ urlpatterns = [
     path('account/', include("merchant.urls")),
     path('transfers/', include("transaction.urls")),
     path('settlements/', include("settlements.urls")),
-    path('mock-apis/', include("the_mock.urls"))
 ]
 
 urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)

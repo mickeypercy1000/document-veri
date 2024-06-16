@@ -63,7 +63,6 @@ INSTALLED_APPS = [
     "authentication",
     "merchant",
     "transaction",
-    "the_mock",
     
     # THIRD PARTY TOOLS
     'rest_framework',
