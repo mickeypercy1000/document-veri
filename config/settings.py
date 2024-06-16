@@ -116,7 +116,6 @@ DATABASES = {
     'default': {
 
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'URL': config('POSTGRES_URL'),
         'NAME': config('PGNAME'),
         'USER': config('PGUSER'),
         'PASSWORD': config('POSTGRES_PASSWORD'),
