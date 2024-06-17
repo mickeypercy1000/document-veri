@@ -12,7 +12,7 @@ python3 manage.py makemigrations --noinput
 python3 manage.py migrate --noinput
 
 # collect static files using the Python interpreter from venv
-python3 manage.py collectstatic --noinput
+# python3 manage.py collectstatic --noinput
 
 # [optional] Start the application here 
 # python manage.py runserver
