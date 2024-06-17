@@ -3,10 +3,12 @@ python3.9 -m venv venv
 
 # activate the virtual environment
 source venv/bin/activate
+pip3 install --upgrade pip
 
 # install all deps in the venv
 pip install django
-pip install cmake
+pip install cmake==3.25
+pip install dlib
 pip install -r requirements.txt
 python3 manage.py makemigrations --noinput
 python3 manage.py migrate --noinput
