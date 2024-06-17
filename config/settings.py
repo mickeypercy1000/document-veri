@@ -27,7 +27,7 @@ SECRET_KEY = config("SECRET_KEY")
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = config("DEBUG")
 
-ALLOWED_HOSTS = ["*", ".vercel.app"]
+ALLOWED_HOSTS = ["*"]
 
 CORS_ALLOW_ALL_ORIGINS = True
 
@@ -61,7 +61,7 @@ INSTALLED_APPS = [
     "rest_framework",
     "drf_yasg",
     "common",
-    "verify_document",
+    # "verify_document",
 ]
 
 MIDDLEWARE = [

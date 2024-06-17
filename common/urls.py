@@ -1,7 +1,7 @@
-from django.contrib import admin
+# from django.contrib import admin
 from django.urls import path
 
-from verify_document.views import CountryView, DocumentTypeView
+from common.views import CountryView, DocumentTypeView
 
 urlpatterns = [
     path("document_type/", DocumentTypeView.as_view(), name = "document-type"),
