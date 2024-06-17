@@ -2,7 +2,6 @@
 python3.9 -m venv venv
 
 # # activate the virtual environment
-pip install --upgrade pip
 source venv/bin/activate
 pip install -r requirements.txt
 
