@@ -27,7 +27,7 @@ SECRET_KEY = config("SECRET_KEY")
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = config("DEBUG")
 
-ALLOWED_HOSTS = ["*"]
+ALLOWED_HOSTS = ['.vercel.app', '.now.sh', '.127.0.0.1', '.localhost']
 
 CORS_ALLOW_ALL_ORIGINS = True
 
@@ -146,8 +146,6 @@ TIME_ZONE = "UTC"
 USE_I18N = True
 
 USE_TZ = True
-
-
 
 
 DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
