@@ -1,7 +1,6 @@
 from io import BytesIO
 import cv2
 # from deepface import DeepFace
-from pprint import pprint
 import requests
 from rest_framework.response import Response
 from PIL import Image
