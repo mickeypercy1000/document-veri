@@ -2,6 +2,7 @@ asgiref==3.8.1
 certifi==2024.6.2
 charset-normalizer==3.3.2
 click==8.1.7
+cmake==3.29.2
 contourpy==1.2.1
 cycler==0.12.1
 Django==4.2.1
